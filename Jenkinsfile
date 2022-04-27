@@ -46,7 +46,7 @@ pipeline {
                  
              
                
-               sh "ansible-playbook main.yml -i inventories/dev/hosts"
+               sh "ansible-playbook main.yml"
 
                
             
