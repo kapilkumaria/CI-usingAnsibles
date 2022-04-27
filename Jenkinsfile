@@ -46,7 +46,7 @@ pipeline {
                  
              
                
-               sh "ansible-playbook main.yml"
+               sh "ansible-playbook -i hosts main.yml"
 
                
             
