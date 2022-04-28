@@ -1,8 +1,8 @@
         
 - hosts: all
   become: true
-  become_user: devops
-  gather_facts: true
+  become_user: root
+  gather_facts: false
   tasks:
     - include_role:
         name: tomcat
